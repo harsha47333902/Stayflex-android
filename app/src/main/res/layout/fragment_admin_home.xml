@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical"
+    tools:context="AdminHomeFragment">
+
+    <Button
+        android:id="@+id/addRoomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:text="Add Room"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+            <!-- Table headers -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary">
+
+
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="Room Type"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:padding="8dp" />
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Price"-->
+                <!--                    android:textSize="16sp"-->
+                <!--                    android:textColor="@android:color/black"-->
+                <!--                    android:padding="8dp" />-->
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Action"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:padding="8dp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "388943306930",
+    "firebase_url": "https://stayflex-hotel-default-rtdb.firebaseio.com",
+    "project_id": "stayflex-hotel",
+    "storage_bucket": "stayflex-hotel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388943306930:android:b8d4229c59d851f90829ab",
+        "android_client_info": {
+          "package_name": "com.example.harshamoduleproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxdRy0RlDs3zMtNtG6S2LpB9m_rsfSyLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388943306930:android:b8a4b3c1f0300ad00829ab",
+        "android_client_info": {
+          "package_name": "com.example.stayflex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxdRy0RlDs3zMtNtG6S2LpB9m_rsfSyLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
